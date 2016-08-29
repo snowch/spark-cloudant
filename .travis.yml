@@ -1,0 +1,4 @@
+language: scala
+
+script:
+- cd $TRAVIS_BUILD_DIR/cloudant-spark-sql && sbt assembly
